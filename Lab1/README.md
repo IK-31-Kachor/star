@@ -8,3 +8,4 @@
 8. За допомогою команди git pull синхронізую локальну версію з веб.
 9. 
 
+![123](https://github.com/IK-31-Kachor/star/blob/master/Lab1/123.jpg)
