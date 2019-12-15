@@ -10,5 +10,5 @@
 10. Заповнюю Makefile необхідними командами для повної автоматизації процесу СІ проекту.
 11. Клоную git репозиторій на віртуальну машину та запускаю Makefile
 
-
+![git2](https://github.com/IK-31-Kachor/star/blob/master/Lab2/image/git2.PNG)
 
