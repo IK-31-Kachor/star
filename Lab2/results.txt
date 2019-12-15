@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.8.0, pytest-5.3.2, py-1.8.0, pluggy-0.13.1
+rootdir: C:\Users\yura3\IdeaProjects\star\Lab2
+collected 3 items
+
+tests.py ...                                                             [100%]
+
+========================================
+Результат без параметрів: 
+No URL passed to function
+========================================
+Результат з правильною URL: 
+Time is:  03:31:44 PM
+Доброго дня!
+Date is:  12-15-2019
