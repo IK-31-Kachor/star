@@ -3,7 +3,7 @@
 3. Перенаправляю результати цих команд у файл my_work.log та роблю коміт до репозиторію.
 4. Створюю Docker імейдж з сайтом з попередньої роботи.
 5. Щоб завантажити базовий Python імейдж з репозиторію, використовую наступні команди:
-      -   docker pull python:3.7-slim
+   -  docker pull python:3.7-slim
    -  docker images
    -  docker inspect python:3.7-slim 
 6.    
