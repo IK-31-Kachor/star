@@ -1,0 +1,14 @@
+INFO 2019-10-27 20:25:22,875 root : Ñåðâåð äîñòóïíèé. ×àñ íà ñåðâåð³: 2019-10-27T20:25:22.873
+INFO 2019-10-27 20:25:22,876 root : Çàïèòóâàíà ñòîð³íêà: : http://127.0.0.1:8000/health/
+INFO 2019-10-27 20:25:22,876 root : Â³äïîâ³äü ñåðâåðà ì³ñòè íàñòóïí³ ïîëÿ:
+INFO 2019-10-27 20:25:22,876 root : Êëþ÷: date, Çíà÷åííÿ: 2019-10-27T20:25:22.873
+INFO 2019-10-27 20:25:22,876 root : Êëþ÷: current_page, Çíà÷åííÿ: http://127.0.0.1:8000/health/
+INFO 2019-10-27 20:25:22,876 root : Êëþ÷: server_info, Çíà÷åííÿ: {'system': 'Windows', 'version': '10.0.18362', 'node': 'DESKTOP-91KCDPM', 'processor': 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'}
+INFO 2019-10-27 20:25:22,876 root : Êëþ÷: client_info, Çíà÷åííÿ: python-requests/2.22.0
+INFO 2019-10-27 20:26:22,890 root : Ñåðâåð äîñòóïíèé. ×àñ íà ñåðâåð³: 2019-10-27T20:26:22.888
+INFO 2019-10-27 20:26:22,890 root : Çàïèòóâàíà ñòîð³íêà: : http://127.0.0.1:8000/health/
+INFO 2019-10-27 20:26:22,890 root : Â³äïîâ³äü ñåðâåðà ì³ñòè íàñòóïí³ ïîëÿ:
+INFO 2019-10-27 20:26:22,891 root : Êëþ÷: date, Çíà÷åííÿ: 2019-10-27T20:26:22.888
+INFO 2019-10-27 20:26:22,891 root : Êëþ÷: current_page, Çíà÷åííÿ: http://127.0.0.1:8000/health/
+INFO 2019-10-27 20:26:22,891 root : Êëþ÷: server_info, Çíà÷åííÿ: {'system': 'Windows', 'version': '10.0.18362', 'node': 'DESKTOP-91KCDPM', 'processor': 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'}
+INFO 2019-10-27 20:26:22,891 root : Êëþ÷: client_info, Çíà÷åííÿ: python-requests/2.22.0
