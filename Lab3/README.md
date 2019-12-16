@@ -3,3 +3,7 @@
 3. За допомогою команди "pipenv run python manage.py runserver" запускаю сервер, та переходжу за посиланням, що з'явилось у консолі.
 
 ![31](https://github.com/IK-31-Kachor/star/blob/master/Lab3/image/31.PNG)
+
+4. Зупиняю сервер виконавши переривання Ctrl+C. Роблю коміт базового темплейту сайту.
+5. За допомогою команди "pipenv run python manage.py startapp page" створюю темплейт додатку page.
+6. 
