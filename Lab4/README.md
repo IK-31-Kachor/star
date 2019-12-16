@@ -6,6 +6,7 @@
    -  docker pull python:3.7-slim
    -  docker images
    -  docker inspect python:3.7-slim 
-6.    
+6. Створюю власний репозиторій на Docker Hub. Для цього заходжу у власний аккаунт на Docker Hub, після чого переходжу у вкладку Repositories і далі натискаю кнопку Create new repository. Даю назву репозиторію gitlab4. 
+7.   
 
    
