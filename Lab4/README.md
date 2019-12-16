@@ -4,7 +4,8 @@
 4. Створюю Docker імейдж з сайтом з попередньої роботи.
 5. Щоб завантажити базовий Python імейдж з репозиторію, використовую наступні команди:
       -   docker pull python:3.7-slim
-       -docker images
-   -docker inspect python:3.7-slim 
+   -  docker images
+   -  docker inspect python:3.7-slim 
+6.    
 
    
