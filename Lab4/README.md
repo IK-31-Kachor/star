@@ -11,6 +11,6 @@
        -   sudo docker build -t 1999993/gitlab4:django -f Dockerfile.site .
        -    sudo docker images
        -   sudo docker push 1999993/gitlab4:django
-8. [Docker Hub](https://hub.docker.com/repository/docker/1999993/gitlab4)       
+8. [Docker Hub](https://hub.docker.com/repository/registry-1.docker.io/1999993/gitlab4/tags?page=1)       
 
    
