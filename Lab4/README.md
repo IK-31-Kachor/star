@@ -7,6 +7,10 @@
    -  docker images
    -  docker inspect python:3.7-slim 
 6. Створюю власний репозиторій на Docker Hub. Для цього заходжу у власний аккаунт на Docker Hub, після чого переходжу у вкладку Repositories і далі натискаю кнопку Create new repository. Даю назву репозиторію gitlab4. 
-7.   
+7.   Виконую білд Docker імейджа та завантажую його до репозиторію, за допомогою команд:
+       -   sudo docker build -t 1999993/gitlab4:django -f Dockerfile.site .
+       -    sudo docker images
+       -   sudo docker push 1999993/gitlab4:django
+8.        
 
    
