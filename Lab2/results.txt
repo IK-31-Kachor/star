@@ -1,15 +1,15 @@
-============================= test session starts =============================
-platform win32 -- Python 3.8.0, pytest-5.3.2, py-1.8.0, pluggy-0.13.1
-rootdir: C:\Users\yura3\IdeaProjects\star\Lab2
-collected 3 items
+============================= test session starts ==============================
+platform linux -- Python 3.7.5, pytest-5.3.2, py-1.8.0, pluggy-0.13.1
+rootdir: /home/yura/star/Lab2
+collected 0 items / 1 error
 
-tests.py ...                                                             [100%]
-
-========================================
-Результат без параметрів: 
-No URL passed to function
-========================================
-Результат з правильною URL: 
-Time is:  03:31:44 PM
-Доброго дня!
-Date is:  12-15-2019
+==================================== ERRORS ====================================
+_______________________ ERROR collecting tests/tests.py ________________________
+ImportError while importing test module '/home/yura/star/Lab2/tests/tests.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+tests/tests.py:2: in <module>
+    from app import main, home_work
+E   ModuleNotFoundError: No module named 'app'
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.42s ===============================
