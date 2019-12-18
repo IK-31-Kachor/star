@@ -20,4 +20,12 @@
 ![54](https://github.com/IK-31-Kachor/star/blob/master/Lab5/image/54.PNG)
 
 9. Створюю два Dockerfile та Makefile, відповідно до зразка.
-10. 
+10. Ознайомлююсь з вмістом Dockerfile та Makefile, їх директивами.
+    - STATES - змінна, що містить назву тегу.
+    - REPO - змінна, що містить назву репозиторію.
+    -  .PHONY - директива, що підставляє значення STATES у $(STATES).
+    - $(STATES) - директива, призначена для білду Docker Image.
+    -  run - для запуску сайту та redis.
+    -  test-app - для запуску тестів.
+    -  docker-prune - директива для очищення ресурсів Docker.
+11.     
