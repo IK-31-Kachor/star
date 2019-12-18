@@ -49,6 +49,7 @@
     - make docker-prune
 16. Створюю директиви у Makefile, для того, щоб зробити push до мого Docker репозиторію.
 
-[Docker репозиторій](https://hub.docker.com/repository/docker/1999993/gitlab5)  
+   [Docker репозиторій](https://hub.docker.com/repository/docker/1999993/gitlab5)  
 
-17.   
+17. За допомогою Makefile автоматизую процес видалення імеджів.
+ ![58]() 
