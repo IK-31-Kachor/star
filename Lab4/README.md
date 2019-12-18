@@ -22,6 +22,8 @@
 
 ![47](https://github.com/IK-31-Kachor/star/blob/master/Lab4/image/47.PNG)
 
-13.    
+13.  комічу Dockerfile.monitor та результати роботи програми моніторингу, запущеної з Docker контейнера - файл server.log.
+
+  
 
    
