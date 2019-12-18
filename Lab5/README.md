@@ -75,4 +75,5 @@
  
  ![61](https://github.com/IK-31-Kachor/star/blob/master/Lab5/image/61.PNG)
  
-4.  
+4. Зупиняю роботу проекту, та видаляю дані компоуза.
+5. Роблю push до Docker репозиторію.
