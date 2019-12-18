@@ -41,8 +41,8 @@
 
 14. Перевіряю роботу кожної сторінки веб-сайту:
 
-![56]()
+![56](https://github.com/IK-31-Kachor/star/blob/master/Lab5/image/56.PNG)
 
-![57]()
+![57](https://github.com/IK-31-Kachor/star/blob/master/Lab5/image/57.PNG)
 
 15. 
