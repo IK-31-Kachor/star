@@ -45,4 +45,10 @@
 
 ![57](https://github.com/IK-31-Kachor/star/blob/master/Lab5/image/57.PNG)
 
-15. 
+15. Зупиняю проект, та очищую ресурси Docker за допомогою команди:
+    - make docker-prune
+16. Створюю директиви у Makefile, для того, щоб зробити push до мого Docker репозиторію.
+
+[Docker репозиторій](https://hub.docker.com/repository/docker/1999993/gitlab5)  
+
+17.   
