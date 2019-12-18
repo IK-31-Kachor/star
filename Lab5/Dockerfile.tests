@@ -1,5 +1,5 @@
 FROM python:3.8-alpine
-LABEL author="Yuras"
+LABEL author="Yura"
 
 # оновлюємо систему та встановлюємо потрібні пакети
 RUN apk update \
