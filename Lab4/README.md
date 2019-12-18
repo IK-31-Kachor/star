@@ -14,6 +14,7 @@
 8. [Docker Hub](https://hub.docker.com/repository/registry-1.docker.io/1999993/gitlab4/tags?page=1)
 9. Посилання на скачування імейджа: 1999993/gitlab4:django 
 10. Запускаю сервер за допомогою команди sudo docker run -it --name=django --rm -p 8000:8000 1999993/gitlab4:django. 
-![]()   
+![46](https://github.com/IK-31-Kachor/star/blob/master/Lab4/image/46.PNG)
+11.    
 
    
