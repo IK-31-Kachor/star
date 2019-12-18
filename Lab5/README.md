@@ -34,4 +34,8 @@
     
     -  make run
     -  make test-app   
-13.  
+13.  Переконуюся, що тести пройшли успішно:
+
+![55](https://github.com/IK-31-Kachor/star/blob/master/Lab5/image/55.PNG)
+
+14. 
