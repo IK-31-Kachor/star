@@ -15,4 +15,8 @@
 7. Видаляю всі файли, що створились в процесі запуску (Pipfile, Pipfile.lock);
 8. Перевіряю роботу сайту, перейшовши на кожну із сторінок:
 
-![53]()
+![53](https://github.com/IK-31-Kachor/star/blob/master/Lab5/image/53.PNG)
+
+![54](https://github.com/IK-31-Kachor/star/blob/master/Lab5/image/54.PNG)
+
+9. 
