@@ -62,8 +62,8 @@
    - docker-compose -p lab_5 up
 3.  Перевіряю, як працює сайт. Для цього заходжу на адресу 127.0.0.1
 
-  ![59]()
+  ![59](https://github.com/IK-31-Kachor/star/blob/master/Lab5/image/59.PNG)
   
-  ![60]()
+  ![60](https://github.com/IK-31-Kachor/star/blob/master/Lab5/image/60.PNG)
   
-4.   
+4.    
