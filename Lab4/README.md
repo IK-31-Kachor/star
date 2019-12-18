@@ -17,6 +17,7 @@
 
 ![46](https://github.com/IK-31-Kachor/star/blob/master/Lab4/image/46.PNG)
 
-11.    
+11. Створю ще один файл під назвою Dockerfile.monitoring і поміщаю туди програму моніторингу. Виконую білд і присвоюю тег monitoring.
+    
 
    
