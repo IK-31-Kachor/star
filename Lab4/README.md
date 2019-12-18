@@ -16,6 +16,7 @@
 10. Запускаю сервер за допомогою команди sudo docker run -it --name=django --rm -p 8000:8000 1999993/gitlab4:django. 
 
 ![46](https://github.com/IK-31-Kachor/star/blob/master/Lab4/image/46.PNG)
+
 11.    
 
    
