@@ -1,0 +1,31 @@
+version: '3.8'
+services:
+  django:
+    build:
+      context: .
+      dockerfile: Dockerfile.site
+    image: 1999993/gitlab5:compose-django
+    container_name: django
+    networks:
+      - publ
+    ports:
+      - 8000:8000
+  monitoring:
+    build:
+      context: .
+      dockerfile: Dockerfile.monitoring
+    image: 1999993/gitlab5:compose-monitoring
+    container_name: monitoring
+    depends_on:
+      - django
+    network_mode: host
+    volumes:
+      - monit-log:/app/
+
+volumes:
+  monit-log:
+    driver: local
+
+networks:
+  publ:
+    driver: bridge
