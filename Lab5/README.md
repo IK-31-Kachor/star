@@ -6,4 +6,6 @@
 3. Для виправлення помилки redis.exceptions.ConnectionError, що виникла при спробі запустити додатку, встановлюю redis-server, виконавши команду sudo apt install redis-server. Роблю зміни у конфігураційному файлі /etc/redis/redis.conf. Пропипую у файлі /etc/hosts перенаправлення запитів redis на локальну адресу 127.0.0.1 redis;
 4. Переконуюся, що сайт працює
 
-![52]()
+![52](https://github.com/IK-31-Kachor/star/blob/master/Lab5/image/52.PNG)
+
+5. 
