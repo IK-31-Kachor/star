@@ -19,4 +19,5 @@
 
 ![54](https://github.com/IK-31-Kachor/star/blob/master/Lab5/image/54.PNG)
 
-9. 
+9. Створюю два Dockerfile та Makefile, відповідно до зразка.
+10. 
