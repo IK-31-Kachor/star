@@ -56,3 +56,8 @@
  ![58](https://github.com/IK-31-Kachor/star/blob/master/Lab5/image/58.PNG) 
  
  ## Docker-compose ##
+1. Згідно зразка, створюю файл docker-compose.yml.В ньому створюються дві мережі: public і secret. Secret потрібна для комунікації внутрішніх ресурсів, а public для звичайних користувачів.
+2. Перевіряю роботу docker-compose та запускаю його.
+   - docker-compose version
+   - docker-compose -p lab_5 up
+3.    
