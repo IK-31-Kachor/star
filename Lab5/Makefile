@@ -21,10 +21,13 @@ docker-prune:
 	&& docker network prune --force \
 	&& docker image prune --force
 
-
 push:
 	@docker push $(REPO):app
 	@docker push $(REPO):tests
 
-delete-images:
-	@docker rmi --force $$(docker images -q)
+rm-images:
+	@docker rmi -f $$(docker images -q)
+
+pull:
+	@docker pull $(REPO):app
+	@docker pull $(REPO):tests
