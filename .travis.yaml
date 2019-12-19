@@ -1,4 +1,4 @@
-anguage: python
+language: python
 
 python:
   - "3.8"
@@ -10,13 +10,14 @@ jobs:
       python: 3.8
       install:
         - cd ./Lab2/
-        - pipenv install
-      script: pipenv run pytest tests/tests.py || true
+        - make install
+      script: make test || true
     - stage: "Build Lab 3."
       name: "Run Djungo Server and test it accessibility. Fail to run and test"
       python: 3.8
       install:
         - cd ./Lab3/
+        - chmod +x ./scripts/travis-build.sh
         - pipenv install
       script: ./scripts/travis-build.sh
     - stage: "Build Lab 4."
@@ -26,20 +27,25 @@ jobs:
       install:
         - cd ./Lab4/
       script:
-        - docker build -t 1999993/gitlab4:django-travis .
+        - docker build -t 1999993/gitlab4:django-travis -f Dockerfile.site .
         - docker images
-        - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push bobas/lab4-examples:django-travis; else echo "PR skip deploy"; fi
+        - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push vetalvr/lab4_devops:django-travis; else echo "PR skip deploy"; fi
+        - docker build -t vetalvr/lab4_devops:monitoring-travis -f Dockerfile.monitor .
+        - docker images
+        - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push vetalvr/lab4_devops:monitoring-travis; else echo "PR skip deploy"; fi
     - stage: "Build Lab 5."
       name: "Build and run Docker images via make"
       services:
         - docker
       install:
-        - cd .Lab5/
+        - cd ./Lab5/
         - make app
         - make tests
       script:
         - make run
         - make test-app
+        - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; fi
+        - make push
 branches:
   only:
     - master
