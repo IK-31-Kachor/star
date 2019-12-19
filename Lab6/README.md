@@ -13,5 +13,6 @@
 5. Під час білду виникла помилка The command "rake" exited with 1', але потім її було виправлено.
 6. Посилання на білд:
   [My Build](https://travis-ci.org/IK-31-Kachor/star)
+  udsadsa
   
      
